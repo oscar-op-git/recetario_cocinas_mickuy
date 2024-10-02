@@ -1,0 +1,36 @@
+/* src/pages/RecipeDetail.css */
+.detail-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .recipe-name {
+    margin-top: 0;
+  }
+  
+  .recipe-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .detail-image {
+    flex: 1 1 300px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recipe-description {
+    flex: 1 1 300px;
+  }
+  
+  .ingredients,
+  .steps {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  

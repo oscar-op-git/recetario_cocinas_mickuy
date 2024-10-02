@@ -1,0 +1,28 @@
+/* src/components/RecipeCard.css */
+.recipe-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .recipe-title {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+
+  }
+  
+  .recipe-title:hover {
+    text-decoration: underline;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: 190px;
+    margin-top: 10px;
+    border-radius: 35px;
+    padding: 5px 15px 5px 15px;
+  }
+  
